@@ -1,0 +1,33 @@
+{
+  "name": "starter-node-typescript",
+  "version": "1.0.0",
+  "description": "Just a simple starter NodeJS/Express with typescript 2021.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "test": "jest",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "author": "Gustavo Vinicius",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}
