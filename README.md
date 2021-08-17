@@ -1,4 +1,4 @@
-# 🧰 Simple TypeScript Starter | 2021
+# 🧰 Simple NodeJs TypeScript Starter | 2021
 ### Features
 
 - Minimal
