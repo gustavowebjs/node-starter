@@ -4,9 +4,7 @@
         "es2021": true
     },
     "extends": [
-        "airbnb-base",
-        "plugin:@typescript-eslint/recommended",
-        "prettier"
+        "airbnb-base"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -15,10 +13,14 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "prettier",
-        "jest"
+        "@typescript-eslint",
+        "prettier"
     ],
     "rules": {
-        "prettier/prettier": "error"
+    "import/extensions": 0,
+    "import/no-unresolved":0,
+    "no-console": 0,
+    "import/prefer-default-export": 0,
+    "consistent-return": 0
     }
 }

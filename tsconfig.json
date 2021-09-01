@@ -4,7 +4,7 @@
     "module": "commonjs",                    
     "lib": ["es6"],                     
     "allowJs": true,
-    "outDir": "build",                          
+    "outDir": "dist",                          
     "rootDir": "src",
     "strict": true,         
     "noImplicitAny": true,
@@ -12,6 +12,8 @@
     "resolveJsonModule": true,
     "types": ["node", "@types/jest"],
     "typeRoots" : ["./node_modules/@types"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
   },
   "include": [
     "src/**/*"
