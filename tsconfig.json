@@ -16,7 +16,8 @@
     "experimentalDecorators": true,
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "src/server.ts"
   ],
   "exclude" : [
     "src/**/*.spec.ts"

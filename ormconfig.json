@@ -5,14 +5,18 @@
     "username": "root",
     "password": "Emshom95",
     "database": "node",
-    "synchronize": true,
+    "synchronize": false,
     "logging": false,
     "entities": [
        "src/entity/**/*.ts"
     ],
     "migrations": [
-       "src/migration/**/*.ts"
+       "src/database/migrations/**/*.ts"
     ],
+    "migrationsTableName": "migrations",
+    "cli": {
+      "migrationsDir": "src/database/migrations"
+   },
     "subscribers": [
        "src/subscriber/**/*.ts"
     ]
